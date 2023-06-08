@@ -1,0 +1,8 @@
+DISCOVERY_URL=https://xxxx.cic-demo-platform.auth0app.com/.well-known/openid-configuration
+LOGOUT_URL=https://xxxx.cic-demo-platform.auth0app.com/logout
+CLIENT_ID=
+CLIENT_SECRET=
+APP_URL=http://localhost:3000
+RESPONSE_TYPE=code
+SCOPE=openid profile email
+SESSION_SECRET=somethinghardtoguess
