@@ -159,7 +159,9 @@ app.get('/logout', async (req, res) => {
     req.session.destroy();
   }
   if (req.query.slo) {
-    res.redirect(config.logoutUrl);
+    res.redirect(config.logoutUrl+"?returnTo="
+            +encodeURIComponent(process.env.APP_URL)
+            +"&client_id="+config.clientId);
   } else {
     res.send("Logged out");
   }
