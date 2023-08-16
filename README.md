@@ -1,5 +1,4 @@
 # oauth-auth-code-flow-pkce
-# oauth-auth-code-flow-pkce
 ## Introduction
 This is a NodeJS express application with implements the OAuth 2.0 Authorization Code flow with PKCE.
 It was written to work with Okta Customer Identity Cloud but should work with other standards-based implementations.
